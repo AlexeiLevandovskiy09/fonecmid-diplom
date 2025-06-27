@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3170db9-5df0-4528-909d-1dae570f055c">
+  <producedTypes>
+    <refType typeId="8d2886da-e5b2-4005-a2d0-84539d7d7d43" valueTypeId="f8f7f241-c4d3-4760-91b1-7f823023ac2f"/>
+    <listType typeId="276b55b3-533c-4b53-91fa-4597e40da0f0" valueTypeId="7aba1b78-1d80-44f1-b06a-866f0e6ca2b1"/>
+    <managerType typeId="c83613ac-3512-406a-9527-01fd5edb6020" valueTypeId="de61694c-3636-456e-8782-8637493c4a15"/>
+  </producedTypes>
+  <name>BKM_СтатусЗаявкиНаОбслужтвание</name>
+  <synonym>
+    <key>ru</key>
+    <value>BKM статус заявки на обслужтвание</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4ae1848a-fe4f-4074-b777-7d238445b8a4">
+    <name>ОжидаетсяВыполнениеРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидается выполнение работ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8e7e32ee-7dfd-4bdb-b1c3-82db9c449483">
+    <name>ЗаявкаВыполнена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка выполнена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
